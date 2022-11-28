@@ -1,117 +1,152 @@
 {
     "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description_header": "Hello World!",
+      "description": "👋 I'm Tomer Harari. I am a software developer from Brooklyn, NY with a bachelor's Degree in Computer Science as well as a recent graduate of the Flatiron School's software engineering program. I am super motivated to learn and grown as a developer and I cannot wait to share my skills with the world. Feel free to contact me if you think I'd be a good fit! Besides for programming I also play guitar, piano tennis, basketball, and I also love hiking and skiing",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
         "skills": "Skills",
-        "experience": "Experience"
+        "experience": "Experience",
+        "education": "Education"
       }
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "FedEx Shipment Generator",
+        "startDate": "2019",
+        "description": "Command-line-application written at Meridian Furniture USA that handles scraping customer data from various third party websites and requests a new shipment be created and printed. Writes tracking numbers to Google Sheet and merged PDF's to desired location.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/fedex/fedex.jpeg"
         ],
-        "url": "",
+        "url": "https://github.com/tom2943/FedEx",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-python-plain",
+            "name": "Python"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-mysql-plain",
+            "name": "MySQL"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-selenium-plain",
+            "name": "Selenium"
           }
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "title": "Art Station NY",
+        "startDate": "2022",
+        "description": "Project built at Flatiron School for my final phase. This Website was built for a local brick and mortar art store featuring strip checkout, websockets for instant notification transfering, class scheduling, email reminders and more!",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "images/portfolio/artstation/artstationlogo.png"
         ],
-        "url": "https://github.com",
+        "url": "https://github.com/tharari21/art-station",
         "technologies": [
           {
             "class": "devicon-react-original",
             "name": "React"
           },
           {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
+            "class": "devicon-rails-plain",
+            "name": "Ruby on Rails"
+          },
+          {
+            "class": "devicon-postgresql-plain",
+            "name": "PostgreSQL"
           }
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "title": "Banana",
+        "startDate": "2022",
+        "description": "E-Commerce Marketplace similar to Amazon. This project was a great introduction to using Node as a backend language with the Express framework. Features authentication with JWT following best practices and checkout with Stripe",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/banana/bananahome.jpg"
         ],
-        "url": "https://github.com",
+        "url": "https://github.com/tharari21/banana",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-nodejs-plain",
+            "name": "Node"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-express-original-wordmark",
+            "name": "Express"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-react-plain",
+            "name": "React"
+          },
+          {
+            "class": "devicon-postgresql-plain",
+            "name": "PostgreSQL"
           }
         ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "Meridian Furniture USA",
+        "title": "E-Commerce Product Data Manager / Software Developer",
+        "years": "09.2019 - present",
         "mainTech": [
-          "Angular 8/9/10"
+          "Python 3"
         ],
         "technologies": [
           "REST API",
-          "RxJS",
+          "Django",
           "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "Jquery",
+          "Microsoft Excel",
+          "Google Sheets",
+          "Google App Script",
+          "MySQL"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
+        "company": "Merchants Cash Partners",
+        "title": "Salesman",
+        "years": "06.2019 - 09.2019",
+        "mainTech": [],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "Communication",
+          "Leadership"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "name": "CUNY Brooklyn College",
+        "type": "Bachelors of Science",
+        "major": "Computer Science",
+        "years": "09.2018 - 05.2022",
+        "achievements": [
+          "Dean's List"
+        ],
+        "notableCourses": [
+          "Programming Paradigms in C++",
+          "Operating Systems",
+          "Computer Architecture",
+          "Data Structures",
+          "Analysis of Algorithms",
+          "Theoretical Computer Science",
+          "Computer Ethics"
+        ]
+      },
+      {
+        "name": "Flatiron School",
+        "type": "Certificate of Completion",
+        "major": "Software Engineering",
+        "years": "06.2022 - 10.2022",
+        "achievements": [
+          "Dean's List"
+        ],
+        "notableCourses": [
+          "Full Stack Web Development",
+          "RESTful APIs",
+          "React",
+          "Redux"
         ]
       }
     ]
