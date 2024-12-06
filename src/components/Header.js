@@ -30,7 +30,6 @@ class Header extends Component {
       this.titles = this.props.sharedData.titles
         .map((x) => [x.toUpperCase(), 1500])
         .flat();
-      console.log(name);
     }
 
     const HeaderTitleTypeAnimation = React.memo(
@@ -102,15 +101,6 @@ class Header extends Component {
                 }
                 id="icon-switch"
               />
-            </div>
-            <div style={{ marginTop: "20px" }}>
-              <a
-                style={{ fontSize: "4rem", color: "black" }}
-                href="/resume.pdf"
-                target="_blank"
-              >
-                Resume
-              </a>
             </div>
           </div>
         </div>

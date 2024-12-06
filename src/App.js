@@ -53,9 +53,45 @@ class App extends Component {
   }
 
   render() {
-    console.log(this.state.sharedData.basic_info);
+    const handleMouseDown = (e) => {
+      e.target.style.transform = "scale(0.95)";
+    };
+
+    const handleMouseUp = (e) => {
+      e.target.style.transform = "scale(1)";
+    };
     return (
       <div>
+        <div
+          style={{
+            position: "fixed",
+            top: "12px",
+            left: "12px",
+            zIndex: 100,
+          }}
+        >
+          <a
+            style={{
+              backgroundColor: "#333333",
+              color: "#ffffff",
+              border: "none",
+              borderRadius: "5px",
+              padding: "10px 20px",
+              fontSize: "16px",
+              fontWeight: "bold",
+              cursor: "pointer",
+              transition: "background-color 0.3s ease, transform 0.2s ease",
+              display: "inline-block",
+              textAlign: "center",
+            }}
+            onMouseDown={handleMouseDown}
+            onMouseUp={handleMouseUp}
+            href="/resume.pdf"
+            target="_blank"
+          >
+            Resume
+          </a>
+        </div>
         <Header sharedData={this.state.sharedData.basic_info} />
 
         <About
