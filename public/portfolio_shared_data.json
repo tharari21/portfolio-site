@@ -1,153 +1,155 @@
 {
-    "basic_info": {
-      "name": "Tomer Harari",
-      "titles": [ "Full Stack Developer", "Backend", "Frontend", "DevOps" ],
-      "social": [
-        {
-          "name": "github",
-          "url": "https://github.com/tharari21",
-          "class": "fab fa-github"
-        },
-        {
-          "name": "instagram",
-          "url": "https://www.instagram.com/tomerharari1",
-          "class": "fab fa-instagram"
-        },
-        {
-          "name": "linkedin",
-          "url": "https://www.linkedin.com/in/tomer-harari",
-          "class": "fab fa-linkedin"
-        }
-      ],
-      "image": "myProfile.jpg"
-    },
-    "skills": {
-      "icons": [
-        {
-          "name": "HTML",
-          "class": "devicon-html5-plain",
-          "level": "95"
-        },
-        {
-          "name": "CSS",
-          "class": "devicon-css3-plain",
-          "level": "95"
-        },
-        {
-          "name": "TypeScript",
-          "class": "devicon-typescript-plain",
-          "level": "90"
-        },
-        {
-          "name": "JavaScript",
-          "class": "devicon-javascript-plain",
-          "level": "70"
-        },
-        {
-          "name": "Python",
-          "class": "devicon-python-plain",
-          "level": "65"
-        },
-        {
-          "name": "Java",
-          "class": "devicon-java-plain",
-          "level": "65"
-        },
-        {
-          "name": "Jquery",
-          "class": "devicon-jquery-plain",
-          "level": "65"
-        },
-        {
-          "name": "React.js",
-          "class": "devicon-react-original",
-          "level": "65"
-        },
-        {
-          "name": "Next.js",
-          "class": "devicon-nextjs-plain-wordmark",
-          "level": "65"
-        },
-        {
-          "name": "Node.js",
-          "class": "devicon-nodejs-plain-wordmark",
-          "level": "65"
-        },
-        {
-          "name": "Redux",
-          "class": "devicon-redux-original",
-          "level": "65"
-        },
-        {
-          "name": "Ruby",
-          "class": "devicon-ruby-plain",
-          "level": "65"
-        },
-        {
-          "name": "Ruby on Rails",
-          "class": "devicon-rails-plain",
-          "level": "65"
-        },
-        {
-          "name": "Django",
-          "class": "devicon-django-plain",
-          "level": "65"
-        },
-        {
-          "name": "Flask",
-          "class": "devicon-flask-original",
-          "level": "65"
-        },
-        {
-          "name": "Numpy",
-          "class": "devicon-numpy-original-wordmark",
-          "level": "65"
-        },
-        {
-          "name": "Pandas",
-          "class": "devicon-pandas-original-wordmark",
-          "level": "65"
-        },
-        {
-          "name": "Firebase",
-          "class": "devicon-firebase-plain",
-          "level": "65"
-        },
-        {
-          "name": "MySql",
-          "class": "devicon-mysql-plain",
-          "level": "60"
-        },
-        {
-          "name": "PostgreSQL",
-          "class": "devicon-postgresql-plain-wordmark",
-          "level": "60"
-        },
-        {
-          "name": "MongoDB",
-          "class": "devicon-mongodb-plain",
-          "level": "60"
-        },
-        {
-          "name": "Git",
-          "class": "devicon-git-plain",
-          "level": "65"
-        },
-        {
-          "name": "GitHub",
-          "class": "devicon-github-original",
-          "level": "65"
-        },
-        {
-          "name": "Docker",
-          "class": "devicon-docker-plain",
-          "level": "65"
-        },
-        {
-          "name": "Kubernetes",
-          "class": "devicon-kubernetes-plain",
-          "level": "65"
-        }
-      ]
-    }
+  "basic_info": {
+    "name": "Tomer Harari",
+    "titles": ["Full Stack Developer", "Backend", "Frontend", "DevOps", "QA"],
+    "social": [
+      {
+        "name": "github",
+        "url": "https://github.com/tharari21",
+        "class": "fab fa-github"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/tomerharari1",
+        "class": "fab fa-instagram"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/tomer-harari",
+        "class": "fab fa-linkedin"
+      }
+    ],
+    "image": "me.jpeg",
+    "likes_to_ski_img": "likes_to_ski.png",
+    "likes_to_ski_2_img": "likes_to_ski_2.png"
+  },
+  "skills": {
+    "icons": [
+      {
+        "name": "HTML",
+        "class": "devicon-html5-plain",
+        "level": "95"
+      },
+      {
+        "name": "CSS",
+        "class": "devicon-css3-plain",
+        "level": "95"
+      },
+      {
+        "name": "TypeScript",
+        "class": "devicon-typescript-plain",
+        "level": "90"
+      },
+      {
+        "name": "JavaScript",
+        "class": "devicon-javascript-plain",
+        "level": "70"
+      },
+      {
+        "name": "Python",
+        "class": "devicon-python-plain",
+        "level": "65"
+      },
+      {
+        "name": "Java",
+        "class": "devicon-java-plain",
+        "level": "65"
+      },
+      {
+        "name": "Jquery",
+        "class": "devicon-jquery-plain",
+        "level": "65"
+      },
+      {
+        "name": "React.js",
+        "class": "devicon-react-original",
+        "level": "65"
+      },
+      {
+        "name": "Next.js",
+        "class": "devicon-nextjs-plain-wordmark",
+        "level": "65"
+      },
+      {
+        "name": "Node.js",
+        "class": "devicon-nodejs-plain-wordmark",
+        "level": "65"
+      },
+      {
+        "name": "Redux",
+        "class": "devicon-redux-original",
+        "level": "65"
+      },
+      {
+        "name": "Ruby",
+        "class": "devicon-ruby-plain",
+        "level": "65"
+      },
+      {
+        "name": "Ruby on Rails",
+        "class": "devicon-rails-plain",
+        "level": "65"
+      },
+      {
+        "name": "Django",
+        "class": "devicon-django-plain",
+        "level": "65"
+      },
+      {
+        "name": "Flask",
+        "class": "devicon-flask-original",
+        "level": "65"
+      },
+      {
+        "name": "Numpy",
+        "class": "devicon-numpy-plain",
+        "level": "65"
+      },
+      {
+        "name": "Pandas",
+        "class": "devicon-pandas-plain",
+        "level": "65"
+      },
+      {
+        "name": "Firebase",
+        "class": "devicon-firebase-plain",
+        "level": "65"
+      },
+      {
+        "name": "MySql",
+        "class": "devicon-mysql-plain",
+        "level": "60"
+      },
+      {
+        "name": "PostgreSQL",
+        "class": "devicon-postgresql-plain-wordmark",
+        "level": "60"
+      },
+      {
+        "name": "MongoDB",
+        "class": "devicon-mongodb-plain",
+        "level": "60"
+      },
+      {
+        "name": "Git",
+        "class": "devicon-git-plain",
+        "level": "65"
+      },
+      {
+        "name": "GitHub",
+        "class": "devicon-github-original",
+        "level": "65"
+      },
+      {
+        "name": "Docker",
+        "class": "devicon-docker-plain",
+        "level": "65"
+      },
+      {
+        "name": "Kubernetes",
+        "class": "devicon-kubernetes-plain",
+        "level": "65"
+      }
+    ]
   }
+}

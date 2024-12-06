@@ -1,153 +1,180 @@
 {
-    "basic_info": {
-      "description_header": "Hello World!",
-      "description": "👋 I'm Tomer Harari. I am a software developer from Brooklyn, NY with a bachelor's Degree in Computer Science as well as a recent graduate of the Flatiron School's software engineering program. I am super motivated to learn and grown as a developer and I cannot wait to share my skills with the world. Feel free to contact me if you think I'd be a good fit! Besides for programming I also play guitar, piano tennis, basketball, and I also love hiking and skiing",
-      "section_name": {
-        "about": "About me",
-        "projects": "Projects",
-        "skills": "Skills",
-        "experience": "Experience",
-        "education": "Education"
-      }
+  "basic_info": {
+    "description_header": "Hello World!",
+    "description": "My name is Tomer and I’m a software engineer with a diverse background in coding, automation, and problem-solving. With a bachelor’s degree in computer science and experience from both a coding bootcamp and Moody’s rotational program, I’ve had the unique opportunity to work across QA, DevOps, and full-stack development teams. My career began as an e-commerce product data manager, where I developed a sharp eye for detail and efficiency. It was there that I took matters into my own hands and used the minimal coding knowledge I had to build automation scripts for the company. Since then, I’ve combined my love for coding and automation to craft solutions that are not only functional but also elegant and maintainable. Whether I’m optimizing release pipelines, building robust APIs, or ensuring seamless user experiences, I’m driven by a passion for creating systems that work smarter. Let’s build something amazing together!",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience",
+      "education": "Education"
+    }
+  },
+  "projects": [
+    {
+      "title": "Intermesh.AI",
+      "startDate": "2024",
+      "description": "Marketing application suited for lenders that allows users to automate interactions with their clients in order to speed up the application process. Optionally automates communication with clients using AI functionality.",
+      "images": ["images/portfolio/intermesh/intermeshai.png"],
+      "url": "https://intermesh.ai",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-nodejs-plain-wordmark",
+          "name": "Node"
+        },
+        {
+          "class": "devicon-typescript-plain",
+          "name": "Typescript"
+        },
+        {
+          "class": "devicon-dynamodb-plain",
+          "name": "DynamoDB"
+        },
+        {
+          "class": "devicon-mongodb-plain",
+          "name": "MongoDB"
+        },
+        {
+          "class": "",
+          "name": "OpenAI"
+        }
+      ]
     },
-    "projects": [
-      {
-        "title": "FedEx Shipment Generator",
-        "startDate": "2019",
-        "description": "Command-line-application written at Meridian Furniture USA that handles scraping customer data from various third party websites and requests a new shipment be created and printed. Writes tracking numbers to Google Sheet and merged PDF's to desired location.",
-        "images": [
-          "images/portfolio/fedex/fedex.jpeg"
-        ],
-        "url": "https://github.com/tom2943/FedEx",
-        "technologies": [
-          {
-            "class": "devicon-python-plain",
-            "name": "Python"
-          },
-          {
-            "class": "devicon-mysql-plain",
-            "name": "MySQL"
-          },
-          {
-            "class": "devicon-selenium-plain",
-            "name": "Selenium"
-          }
-        ]
-      },
-      {
-        "title": "Art Station NY",
-        "startDate": "2022",
-        "description": "Project built at Flatiron School for my final phase. This Website was built for a local brick and mortar art store featuring strip checkout, websockets for instant notification transfering, class scheduling, email reminders and more!",
-        "images": [
-          "images/portfolio/artstation/artstationlogo.png"
-        ],
-        "url": "https://github.com/tharari21/art-station",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-rails-plain",
-            "name": "Ruby on Rails"
-          },
-          {
-            "class": "devicon-postgresql-plain",
-            "name": "PostgreSQL"
-          }
-        ]
-      },
-      {
-        "title": "Banana",
-        "startDate": "2022",
-        "description": "E-Commerce Marketplace similar to Amazon. This project was a great introduction to using Node as a backend language with the Express framework. Features authentication with JWT following best practices and checkout with Stripe",
-        "images": [
-          "images/portfolio/banana/bananahome.jpg"
-        ],
-        "url": "https://github.com/tharari21/banana",
-        "technologies": [
-          {
-            "class": "devicon-nodejs-plain",
-            "name": "Node"
-          },
-          {
-            "class": "devicon-express-original-wordmark",
-            "name": "Express"
-          },
-          {
-            "class": "devicon-react-plain",
-            "name": "React"
-          },
-          {
-            "class": "devicon-postgresql-plain",
-            "name": "PostgreSQL"
-          }
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "company": "Meridian Furniture USA",
-        "title": "E-Commerce Product Data Manager / Software Developer",
-        "years": "09.2019 - present",
-        "mainTech": [
-          "Python 3"
-        ],
-        "technologies": [
-          "REST API",
-          "Django",
-          "JavaScript",
-          "Jquery",
-          "Microsoft Excel",
-          "Google Sheets",
-          "Google App Script",
-          "MySQL"
-        ]
-      },
-      {
-        "company": "Merchants Cash Partners",
-        "title": "Salesman",
-        "years": "06.2019 - 09.2019",
-        "mainTech": [],
-        "technologies": [
-          "Communication",
-          "Leadership"
-        ]
-      }
-    ],
-    "education": [
-      {
-        "name": "CUNY Brooklyn College",
-        "type": "Bachelors of Science",
-        "major": "Computer Science",
-        "years": "09.2018 - 05.2022",
-        "achievements": [
-          "Dean's List"
-        ],
-        "notableCourses": [
-          "Programming Paradigms in C++",
-          "Operating Systems",
-          "Computer Architecture",
-          "Data Structures",
-          "Analysis of Algorithms",
-          "Theoretical Computer Science",
-          "Computer Ethics"
-        ]
-      },
-      {
-        "name": "Flatiron School",
-        "type": "Certificate of Completion",
-        "major": "Software Engineering",
-        "years": "06.2022 - 10.2022",
-        "achievements": [
-          "Dean's List"
-        ],
-        "notableCourses": [
-          "Full Stack Web Development",
-          "RESTful APIs",
-          "React",
-          "Redux"
-        ]
-      }
-    ]
-  }
+    {
+      "title": "FedEx Shipment Generator",
+      "startDate": "2019",
+      "description": "Command-line-application written at Meridian Furniture USA that handles scraping customer data from various third party websites and requests a new shipment be created and printed. Writes tracking numbers to Google Sheet and merged PDF's to desired location.",
+      "images": ["images/portfolio/fedex/fedex.jpeg"],
+      "url": "https://github.com/tom2943/FedEx",
+      "technologies": [
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "class": "devicon-mysql-plain",
+          "name": "MySQL"
+        },
+        {
+          "class": "devicon-selenium-plain",
+          "name": "Selenium"
+        }
+      ]
+    },
+    {
+      "title": "Art Station NY",
+      "startDate": "2022",
+      "description": "Project built at Flatiron School for my final phase. This Website was built for a local brick and mortar art store featuring strip checkout, websockets for instant notification transfering, class scheduling, email reminders and more!",
+      "images": ["images/portfolio/artstation/artstation.png"],
+      "url": "https://github.com/tharari21/art-station",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-rails-plain",
+          "name": "Ruby on Rails"
+        },
+        {
+          "class": "devicon-postgresql-plain",
+          "name": "PostgreSQL"
+        }
+      ]
+    },
+    {
+      "title": "Banana",
+      "startDate": "2022",
+      "description": "E-Commerce Marketplace similar to Amazon. This project was a great introduction to using Node as a backend language with the Express framework. Features authentication with JWT following best practices and checkout with Stripe",
+      "images": ["images/portfolio/banana/bananahome.jpg"],
+      "url": "https://github.com/tharari21/banana",
+      "technologies": [
+        {
+          "class": "devicon-nodejs-plain-wordmark",
+          "name": "Node"
+        },
+        {
+          "class": "devicon-express-original-wordmark",
+          "name": "Express"
+        },
+        {
+          "class": "devicon-react-plain",
+          "name": "React"
+        },
+        {
+          "class": "devicon-postgresql-plain",
+          "name": "PostgreSQL"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Moody's Corporation",
+      "title": "Software Engineer (MTR Rotation Program)",
+      "years": "08.2023 - present",
+      "mainTech": ["Developer", "DevOps", "QA"],
+      "technologies": [
+        "Java",
+        "Node",
+        "React",
+        "GitLab CI/CD",
+        "Terraform",
+        "MongoDB",
+        "PostgreSQL",
+        "DynamoDB",
+        "Cypress",
+        "Cypress Cloud",
+        "Jest",
+        "Bash Scripts",
+        "AWS EKS",
+        "AWS CodePipeline"
+      ]
+    },
+    {
+      "company": "Meridian Furniture USA",
+      "title": "E-Commerce Product Data Manager / Software Developer",
+      "years": "09.2019 - 06.2023",
+      "mainTech": ["Python 3"],
+      "technologies": [
+        "REST API",
+        "Django",
+        "JavaScript",
+        "Jquery",
+        "Microsoft Excel",
+        "Google Sheets",
+        "Google App Script",
+        "MySQL"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "name": "CUNY Brooklyn College",
+      "type": "Bachelor's of Science",
+      "major": "Computer Science",
+      "years": "09.2018 - 05.2022",
+      "achievements": ["Dean's List"],
+      "notableCourses": [
+        "Programming Paradigms in C++",
+        "Operating Systems",
+        "Computer Architecture",
+        "Data Structures",
+        "Analysis of Algorithms",
+        "Theoretical Computer Science",
+        "Computer Ethics"
+      ]
+    },
+    {
+      "name": "Flatiron School",
+      "type": "Certificate of Completion",
+      "major": "Software Engineering",
+      "years": "06.2022 - 10.2022",
+      "notableCourses": ["REST API", "Ruby on Rails", "React", "Redux"]
+    }
+  ]
+}
