@@ -101,18 +101,13 @@
         "level": "65"
       },
       {
-        "name": "Numpy",
-        "class": "devicon-numpy-plain",
-        "level": "65"
-      },
-      {
-        "name": "Pandas",
-        "class": "devicon-pandas-plain",
-        "level": "65"
-      },
-      {
         "name": "Firebase",
         "class": "devicon-firebase-plain",
+        "level": "65"
+      },
+      {
+        "name": "AWS",
+        "class": "devicon-amazonwebservices-plain-wordmark",
         "level": "65"
       },
       {
@@ -151,5 +146,15 @@
         "level": "65"
       }
     ]
-  }
+  },
+  "certifications": [
+    {
+      "name": "AWS Certified Cloud Practioner",
+      "url": "/images/certifications/aws-certified-cloud-practitioner.png"
+    },
+    {
+      "name": "AWS Certified Solutions Architect – Associate",
+      "url": "/images/certifications/aws-certified-solutions-architect-associate.png"
+    }
+  ]
 }
